@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    background-color: #f7f7f7;
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    margin: auto;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+input[type="file"], input[type="number"], select {
+    padding: 8px;
+    width: 90%;
+    margin: 5px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bfc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

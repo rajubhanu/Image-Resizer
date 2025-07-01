@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Advanced Image Resizer</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Image Resizer Tool</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <label>Select images (multiple):</label><br>
+        <input type="file" name="images" multiple required><br><br>
+
+        <label>Custom Width:</label><br>
+        <input type="number" name="width" value="250" required><br><br>
+
+        <label>Custom Height:</label><br>
+        <input type="number" name="height" value="250" required><br><br>
+
+        <label>Output Format:</label><br>
+        <select name="format">
+            <option value="jpg">JPG</option>
+            <option value="png">PNG</option>
+        </select><br><br>
+
+        <button type="submit">Resize & Download ZIP</button>
+    </form>
+</div>
+</body>
+</html>
